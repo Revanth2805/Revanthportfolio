@@ -2,7 +2,7 @@
 <body>
     <header>
         <h1>Revanth Sri Nagulamalyala</h1>
-        <p>Web Developer | Software Engineer | Data Scientist</p>
+        <p> Software Engineer | Data Scientist | Salesforce Developer</p>
         <p>Binghamton, New York, 13905 | <a href="mailto:nrevanth@binghamton.edu" style="color: white;">nrevanth@binghamton.edu</a> | +1 (607)-821-5927</p>
     </header>
     <nav>
