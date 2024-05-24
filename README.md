@@ -1,17 +1,80 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Revanth Sri Nagulamalyala</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        section {
+            padding: 2em;
+        }
+        #about, #education, #experience, #projects, #skills, #certifications, #contact {
+            border-bottom: 1px solid #ddd;
+        }
+        .education, .experience, .project {
+            margin: 1em 0;
+            padding: 1em;
+            border: 1px solid #ddd;
+        }
+        .education h3, .experience h3, .project h3 {
+            margin: 0 0 0.5em 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
 <body>
     <header>
         <h1>Revanth Sri Nagulamalyala</h1>
-        <p> Software Engineer | Data Scientist | Salesforce Developer</p>
+        <p>Software Engineer | Data Scientist | Salesforce Developer</p>
         <p>Binghamton, New York, 13905 | <a href="mailto:nrevanth@binghamton.edu" style="color: white;">nrevanth@binghamton.edu</a> | +1 (607)-821-5927</p>
     </header>
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
             <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -40,6 +103,16 @@
             <p>Grade: 3.4/4.0</p>
             <p>Courses: Data Structures and Algorithms, Linear Algebra and Single Variable Calculus, Transform Calculus and Fourier Series, Numerical Methods, Probability and Stochastic Process, Python Programming.</p>
         </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, R, C/C++, MATLAB, Java, HTML, CSS, JavaScript, SQL</li>
+            <li>Software and Tools: Visual Studio, Tableau, SQL Server, JIRA, Google Colab, Google Analytics, AWS SageMaker, AWS EC2</li>
+            <li>Cloud Platforms: AWS, Salesforce, GCP, Azure</li>
+            <li>Frameworks: PyTorch, Scikit Learn, TensorFlow, SpaCy, Numpy, Pandas</li>
+            <li>Machine Learning: Classification, Regression, Time Series Analysis, Natural Language Processing, Neural Networks, Reinforcement Learning, Large Language Models</li>
+        </ul>
     </section>
     <section id="experience">
         <h2>Experience</h2>
@@ -75,16 +148,6 @@
             <p>(May 2020)</p>
             <p>Developed a Random Forest classifier model with a Laplacian filter to evaluate image sharpness and assign a blurriness score. Launched a Streamlit application for analyzing technical aspects of images such as blur, brightness, and contrast, providing users with scores from 0 to 1.</p>
         </div>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, R, C/C++, MATLAB, Java, HTML, CSS, JavaScript, SQL</li>
-            <li>Software and Tools: Visual Studio, Tableau, SQL Server, JIRA, Google Colab, Google Analytics, AWS SageMaker, AWS EC2</li>
-            <li>Cloud Platforms: AWS, Salesforce, GCP, Azure</li>
-            <li>Frameworks: PyTorch, Scikit Learn, TensorFlow, SpaCy, Numpy, Pandas</li>
-            <li>Machine Learning: Classification, Regression, Time Series Analysis, Natural Language Processing, Neural Networks, Reinforcement Learning, Large Language Models</li>
-        </ul>
     </section>
     <section id="certifications">
         <h2>Certifications</h2>
